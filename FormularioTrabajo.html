@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang=“es”>
+<head>
+<meta charset=“UTF-8” >
+<title>Formulario</title>
+</head>
+<body>
+<p><h1>FORMULARIO DE REGISTRO</h1></P>
+<form action=“servicio.php”>
+<p><label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre"></p>
+<p><label for="apellidos">Apellidos:</label>
+<input type="text" id="apellidos" name="apellidos"></p>
+<p><label for="sexo">Sexo: </label><br>
+<input type="radio" id="hombre" name="sexo" value="hombre">
+<label for="hombre">Hombre</label>
+<input type="radio" id="mujer" name="sexo" value="mujer">
+<label for="mujer">Mujer</label><br><br></p>
+<p><label for="correo">Correo:</label>
+<input type="text" id="correo" name="correo"></p>
+<label for="provincia" id="provincia">
+<form action=“servicio.php” method=“get”>
+Descripcion: <br>
+<textarea rows=“10” cols=“40” name=“texto”></textarea><br>
+</form>
+<label for="Deseo recibir informacion sobre novedades y noticias sobre mas pueblos">Deseo recibir informacion sobre novedades y noticias sobre mas pueblos</label>
+<input type="checkbox" name="ofertas" id="ofertas"
+value="ofertas"><br>
+<label for="Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
+<input type="checkbox" name="proteccion de datos" id="proteccion de datos"
+value="proteccion de datos"><br>
+<p></p>
+<input type="submit" value="Enviar">
+</body>
+</html>
